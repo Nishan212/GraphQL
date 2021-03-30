@@ -5,7 +5,7 @@
 	"main": "server.js",
 	"scripts": {
 		"start": "node sever.js",
-		"dev": "nodemon server.js"
+		"dev:server": "nodemon server.js"
 	},
 	"author": "Nishan D' Almeida",
 	"license": "MIT",
