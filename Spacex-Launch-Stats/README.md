@@ -13,7 +13,7 @@ $ npm install
 - Run Server (Port 5000)
 
 ```bash
-$ npm run dev:server
+$ npm run server
 ```
 
 - Visit Graphiql IDE

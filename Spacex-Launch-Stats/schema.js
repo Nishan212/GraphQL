@@ -40,7 +40,7 @@ const RootQuery = new GraphQLObjectType({
 			type: new GraphQLList(LaunchType),
 			description: "List of Launches",
 			resolve: (parent, args) =>
-				axios.get(`${URI}/launches`).then((res) => res.data),
+				axios.get(`${URI}launches`).then((res) => res.data),
 		},
 		launch: {
 			type: LaunchType,
